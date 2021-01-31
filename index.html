@@ -1,7 +1,68 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
+layout: splash
+title: 看得到的智能
+header:
+  overlay_image: "assets/images/show_orange.png.webp"
+  actions:
+    - label: "立即下载"
+      url: "/downloads"
+excerpt: '橙现智能 -- 让智能快速呈现 
+<br>
+免费开源人工智能工具
+<br>
+可视化，无编程工作流，无门槛上手'
+
+
+feature_row:
+  - image_path: "assets/images/pages/data.png.webp"
+    alt: "数据处理"
+    title: "数据处理"
+    excerpt: "可视化方法载入数据，清理数据，特征工程可视化，这都可以？"
+    url: "/docs/orange3/data/load_data/"
+    btn_label: "点我都可以"
+  - image_path: "assets/images/pages/vis.png.webp"
+    alt: "数据与模型可视化"
+    title: "数据与模型可视化"
+    excerpt: "看到你的数据，看到你的模型，看到你的成功，你全都要？"
+    url: "/docs/orange3/visualize/treeviewer/"
+    btn_label: "点我全都要"
+  - image_path: "assets/images/pages/opt.png.webp"
+    alt: "模型训练与优化"
+    title: "模型训练与优化"
+    excerpt: "训练模型，比较模型，优化模型，都要可视化？"
+    url: "/docs/orange3/evaluate/confusionmatrix/"
+    btn_label: "点我可视化"
+
 ---
+
+<!-- 导入上面设置的行 -->
+{% include feature_row %}
+
+<!-- 导入 B 站视频 -->
+{% include video id="BV1N7411t7j3" provider="bilibili" danmaku="1" %}
+
+<!-- 显示最近三个博客 -->
+<section class="recent_posts" itemprop="text">
+  <div class="feature__wrapper">
+  {% for post in site.posts limit:3 %}
+    <div class="feature__item">
+      <div class="archive__item">
+        <div class="archive__item-teaser">
+          <img src="{{ site.baseurl }}/assets/images/{{ post.image }}" alt="customizable">
+        </div>
+        <div class="archive__item-body">
+          <h2 class="archive__item-title">{{post.title}}</h2>
+          <div class="archive__item-excerpt">
+            <p>{{post.excerpt}}
+            </p>
+          </div>
+          <p><a href="{{ post.url }}" class="btn btn--warning">了解更多</a></p>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+</section>
+
+
+

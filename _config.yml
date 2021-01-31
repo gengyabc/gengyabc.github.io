@@ -13,16 +13,22 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: &orange 橙现智能
+name: &author "深圳市兆阳信息技术研究院"  # a site author
+email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+  橙现智能 (Orange, Orange3) 人工智能/机器学习/自然语言处理/数据挖掘/大数据工具软件.
+  KNIME, RapidMiner
+minimal_mistakes_skin: dirt
 search: true
+url                      :  "https://gengyabc.github.io"
+baseurl                  : ''
+repository               : "gengyabc/gengyabc.github.io"
+teaser                   : "assets/images/example.png.webp" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+logo                     : "assets/images/orange-canvas.svg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : &orange # overrides the website title displayed in the masthead, use " " for no title
+breadcrumbs              : false  # false (default)
+words_per_minute         : 200
 
 # Build settings
 markdown: kramdown
@@ -31,7 +37,23 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: "Asia/Shanghai"
+locale: "zh-CN" # Collections
+
+
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+
+
+
+
+comments:
+  provider               :  "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  utterances:
+    theme                : "github-light"  # (default), "github-dark"
+    issue_term           : # "pathname" (default)
 
 include:
   - _pages
@@ -58,34 +80,22 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : *author
+  avatar : "/assets/images/zhaoyang.png.webp"
+  bio    : "人工智能白菜化"
   links:
-    - label: "Website"
+    - label: "网址"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "http://zhaoyang.org.cn/"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - label: "网站"
+      icon: "fas fa-fw fa-link"
+      url: "http://zhaoyang.org.cn/"
+    - label: "sitemap"
+      icon: "fas fa-fw fa-link"
+      url: "/sitemap/"
 
 defaults:
   # _posts
@@ -99,6 +109,9 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
+      toc: true
+      toc_sticky: true
   # _pages
   - scope:
       path: "_pages"
@@ -106,6 +119,57 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _docs
+  - scope:
+      path: "_docs"
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+  # _Orange3
+  - scope:
+      path: "_docs/orange3"
+      type: docs  # 这个应该是那个_docs目录
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      toc: true
+      toc_sticky: true
+      sidebar:
+        nav: "orange3"  # 使用navigation.yml 哪个侧边栏
+  # _Orange3-text
+  - scope:
+      path: "_docs/orange3-text"
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "orange3-text"
+
+  # tutorial
+  - scope:
+      path: "_docs/tutorial"
+      type: docs  # 这个应该是那个_docs目录
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      toc: true
+      toc_sticky: true
+      sidebar:
+        nav: "tutorial"  # 使用navigation.yml 哪个侧边栏
 
 category_archive:
   type: liquid

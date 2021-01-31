@@ -3,6 +3,10 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+**橙现智能**基于**Orange3**汉化及二次开发，仍然[免费开源](https://github.com/szzyiit/orange3)，是一个简单易用的可视化人工智能应用工具。
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+此工具易学易用，[B站有配套教学视频](https://space.bilibili.com/13055460/channel/detail?cid=97474)，并配有适合高职高专学生的教材，是居家旅行，工作生活必备工具。
+
+教材列表：
+* 高教社
+* 电子工业出版社

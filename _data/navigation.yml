@@ -1,9 +1,235 @@
+# 这里设置导航栏
 main:
-  - title: "Posts"
+  - title: "最新橙现"
     url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
+  - title: "文档"
+    url: /docs/
+  - title: "下载"
+    url: /downloads/
+  - title: "快速开始"
+    url: /start/
+  - title: 教程
+    url: /docs/tutorial/01download_install/
+  - title: "工作流"
+    url: /workflows/
+  - title: "关于"
     url: /about/
+
+orange3:
+  - title: 数据
+    children:
+      - title: "加载数据"
+        url: /docs/orange3/data/load_data/
+      - title: 文件(File)
+        url: /docs/orange3/data/file/
+      - title: CSV导入(CSV File Import)
+        url: /docs/orange3/data/csvfileimport/
+      - title: 数据集(Datasets)
+        url: /docs/orange3/data/datasets/
+      - title: SQL表(SQL Table)
+        url: /docs/orange3/data/sqltable/
+      - title: Paint Data(绘制数据)
+        url: /docs/orange3/data/paintdata/
+      - title: 保存数据(Save Data)
+        url: /docs/orange3/data/savedata/
+      - title: 数据信息(Data Info)
+        url: /docs/orange3/data/datainfo/
+      - title: 数据表(Data Table)
+        url: /docs/orange3/data/datatable/
+      - title: 选择列(Select Columns)
+        url: /docs/orange3/data/selectcolumns/
+      - title: 选择行(Select Rows)
+        url: /docs/orange3/data/selectrows/
+      - title: 数据采样器(Data Sampler)
+        url: /docs/orange3/data/datasampler/
+      - title: 数据透视表(Pivot Table)
+        url: /docs/orange3/data/pivottable/
+      - title: 排名(Rank)
+        url: /docs/orange3/data/rank/
+      - title: 相关性（Correlations)
+        url: /docs/orange3/data/correlations/
+      - title: 合并数据(Merge Data)
+        url: /docs/orange3/data/mergedata/
+      - title: 连接(Concatenate)
+        url: /docs/orange3/data/concatenate/
+      - title: 按数据索引选择（Select by Data Index）
+        url: /docs/orange3/data/selectbydataindex/
+      - title: 转置(Transpose)
+        url: /docs/orange3/data/transpose/
+      - title: 随机化(Randomize)
+        url: /docs/orange3/data/randomize/
+      - title: 预处理(Preprocess)
+        url: /docs/orange3/data/preprocess/
+      - title: 应用变换(Apply Domain)
+        url: /docs/orange3/data/applydomain/
+      - title: 填充(Impute)
+        url: /docs/orange3/data/impute/
+      - title: 异常值（Outliers）
+        url: /docs/orange3/data/outliers/
+      - title: 编辑特征(Edit Domain)
+        url: /docs/orange3/data/editdomain/
+      - title: Python脚本(Python Script)
+        url: /docs/orange3/data/pythonscript/
+      - title: 创建实例(Create Instance)
+        url: /docs/orange3/data/createinstance/
+      - title: 着色(Color)
+        url: /docs/orange3/data/color/
+      - title: 连续化(Continuize)
+        url: /docs/orange3/data/continuize/
+      - title: 创建类别(Create Class)
+        url: /docs/orange3/data/createclass/
+      - title: 离散化(Discretize)
+        url: /docs/orange3/data/discretize/
+      - title: 特征构造器(Feature Constructor)
+        url: /docs/orange3/data/featureconstructor/
+      - title: 特征统计(Feature Statistics)
+        url: /docs/orange3/data/featurestatistics/
+      - title: 邻近(Neighbors)
+        url: /docs/orange3/data/neighbors/
+      - title: 清除特征(Purge Domain)
+        url: /docs/orange3/data/purgedomain/
+
+  - title: 可视化
+    children:
+      - title: 查看树(Tree Viewer)
+        url: /docs/orange3/visualize/treeviewer/
+      - title: 箱线图(Box Plot)
+        url: /docs/orange3/visualize/boxplot/
+      - title: 分布(Distributions)
+        url: /docs/orange3/visualize/distributions/
+      - title: 散点图(Scatter Plot)
+        url: /docs/orange3/visualize/scatterplot/
+      - title: 折线图(Line Plot)
+        url: /docs/orange3/visualize/lineplot/
+      - title: 条形图(Bar Plot)
+        url: /docs/orange3/visualize/barplot/
+      - title: 筛网图(Sieve Diagram)
+        url: /docs/orange3/visualize/sievediagram/
+      - title: 马赛克图(Mosaic Display)
+        url: /docs/orange3/visualize/mosaicdisplay/
+      - title: FreeViz
+        url: /docs/orange3/visualize/freeviz/
+      - title: 线性投影(Linear Projection)
+        url: /docs/orange3/visualize/linearprojection/
+      - title: radviz
+        url: /docs/orange3/visualize/radviz/
+      - title: 热图(Heat Map)
+        url: /docs/orange3/visualize/heatmap/
+      - title: 维恩图(Venn Diagram)
+        url: /docs/orange3/visualize/venndiagram/
+      - title: 轮廓图(Silhouette Plot)
+        url: /docs/orange3/visualize/silhouetteplot/
+      - title: 毕达哥拉斯树(Pythagorean Tree)
+        url: /docs/orange3/visualize/pythagoreantree/
+      - title: 毕达哥拉斯森林(Pythagorean Forest)
+        url: /docs/orange3/visualize/pythagoreanforest/
+      - title: CN2 规则查看器(CN2 Rule Viewer)
+        url: /docs/orange3/visualize/cn2ruleviewer/
+      - title: 列线图(Nomogram)
+        url: /docs/orange3/visualize/nomogram/
+      - title: 折线图(Line Chart)
+        url: /docs/orange3/visualize/linechart/
+
+  - title: 模型
+    children:
+      - title: 常量预测(Constant)
+        url: /docs/orange3/model/constant/
+      - title: CN2 规则归纳(CN2 Rule Induction)
+        url: /docs/orange3/model/cn2ruleinduction/
+      - title: 校准器(Calibrated Learner)
+        url: /docs/orange3/model/calibratedlearner/
+      - title: k近邻（knn）
+        url: /docs/orange3/model/knn/
+      - title: 树(Tree)
+        url: /docs/orange3/model/tree/
+      - title: 随机森林(Random Forest)
+        url: /docs/orange3/model/randomforest/
+      - title: 支持向量机(SVM)
+        url: /docs/orange3/model/svm/
+      - title: 线性回归(Linear Regression)
+        url: /docs/orange3/model/linearregression/
+      - title: 逻辑回归(Logistic Regression)
+        url: /docs/orange3/model/logisticregression/
+      - title: 朴素贝叶斯(Naive Bayes)
+        url: /docs/orange3/model/naivebayes/
+      - title: 自适应提升算法(AdaBoost)
+        url: /docs/orange3/model/adaboost/
+      - title: 神经网络(Neural Network)
+        url: /docs/orange3/model/neuralnetwork/
+      - title: 随机梯度下降(Stochastic Gradient Descent)
+        url: /docs/orange3/model/stochasticgradientdescent/
+      - title: 堆叠(Stacking)
+        url: /docs/orange3/model/stacking/
+      - title: 保存模型(Save Model)
+        url: /docs/orange3/model/savemodel/
+      - title: 加载模型(Load Model)
+        url: /docs/orange3/model/loadmodel/
+
+  - title: 评估
+    children:
+      - title: 测试与评分(Test and Score)
+        url: /docs/orange3/evaluate/testandscore/
+      - title: 预测(Predictions)
+        url: /docs/orange3/evaluate/predictions/
+      - title: 混淆矩阵(Confusion Matrix)
+        url: /docs/orange3/evaluate/confusionmatrix/
+      - title: ROC 分析(ROC Analysis)
+        url: /docs/orange3/evaluate/rocanalysis/
+      - title: 提升曲线(Lift Curve)
+        url: /docs/orange3/evaluate/liftcurve/
+      - title: 校准图(Calibration Plot)
+        url: /docs/orange3/evaluate/calibrationplot/
+          
+  - title: 非监督
+    children:
+      - title: 距离文件(Distance File)
+        url: /docs/orange3/unsupervised/distancefile/
+      - title: 距离矩阵(Distance Matrix)
+        url: /docs/orange3/unsupervised/distancematrix/
+      - title: t-SNE
+        url: /docs/orange3/unsupervised/t-sne/
+      - title: 距离图(Distance Map)
+        url: /docs/orange3/unsupervised/distancemap/
+      - title: 层次聚类(Hierarchical Clustering)
+        url: /docs/orange3/unsupervised/hierarchicalclustering/
+      - title: k均值(k-Means)
+        url: /docs/orange3/unsupervised/kmeans/
+      - title: Louvain Clustering
+        url: /docs/orange3/unsupervised/louvainclustering/
+      - title: DBSCAN
+        url: /docs/orange3/unsupervised/dbscan/
+      - title: 流形学习(manifold learning)
+        url: /docs/orange3/unsupervised/manifoldlearning/
+      - title: 主成分分析(PCA)
+        url: /docs/orange3/unsupervised/pca/
+      - title: 对应分析(Correspondence Analysis)
+        url: /docs/orange3/unsupervised/correspondenceanalysis/
+      - title: 距离(Distances)
+        url: /docs/orange3/unsupervised/distances/
+      - title: 距离变换(Distance Transformation)
+        url: /docs/orange3/unsupervised/distancetransformation/
+      - title: 多维尺度分析(MDS)
+        url: /docs/orange3/unsupervised/mds/
+      - title: 保存距离矩阵(Save Distance Matrix)
+        url: /docs/orange3/unsupervised/savedistancematrix/
+      - title: 自组织映射(Self-Organizing Map)
+        url: /docs/orange3/unsupervised/self-organizingmap/
+
+
+tutorial:
+  - title: 入门
+    children:
+      - title: 下载与安装
+        url: /docs/tutorial/01download_install/
+      - title: 简单线性回归
+        url: /docs/tutorial/02linear_regression/
+      - title: 多元线性回归--使用散点图探索
+        url: /docs/tutorial/03mlr/
+      - title: 多元线性回归--特征工程
+        url: /docs/tutorial/04mlr_feature/
+      - title: 多元线性回归--模型优化与解释
+        url: /docs/tutorial/05mlr-exp/
+      - title: 逻辑回归
+        url: /docs/tutorial/06logreg/
+
+

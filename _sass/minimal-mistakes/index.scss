@@ -1,0 +1,16 @@
+.recent_posts {
+    img {
+        height: 300px;
+    }
+    .archive__item-excerpt {
+        height: 150px; 
+        overflow: hidden;
+        text-overflow: ellipsis; 
+    }
+}
+
+.weixin {
+    img {
+        height: 100px;
+    }
+}
