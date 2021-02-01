@@ -1,6 +1,6 @@
 ---
 title: "使用绘制数据学习数据分析"
-image: posts/20201212/PaintData-example.png.webp
+image: posts/20201212/PaintData-Example.png.webp
 categories:
   - 数据分析
 tags:
