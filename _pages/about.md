@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "About"
+title: "关于"
 ---
 
 **橙现智能**基于**Orange3**汉化及二次开发，仍然[免费开源](https://github.com/szzyiit/orange3)，是一个简单易用的可视化人工智能应用工具。
