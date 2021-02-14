@@ -164,6 +164,8 @@ orange3:
         url: /docs/orange3/model/savemodel/
       - title: 加载模型(Load Model)
         url: /docs/orange3/model/loadmodel/
+      - title: 梯度提升(Gradient Boosting)
+        url: /docs/orange3/model/gradientboosting/
 
   - title: 评估
     children:
@@ -214,6 +216,7 @@ orange3:
         url: /docs/orange3/unsupervised/savedistancematrix/
       - title: 自组织映射(Self-Organizing Map)
         url: /docs/orange3/unsupervised/self-organizingmap/
+  
   - title: 强化学习
     children:
       - title: 爬行者(Crawler)
