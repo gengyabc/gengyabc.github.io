@@ -96,3 +96,11 @@
 [多维尺度分析]: /docs/orange3/unsupervised/mds/
 [保存距离矩阵]: /docs/orange3/unsupervised/savedistancematrix/
 [自组织映射]: /docs/orange3/unsupervised/self-organizingmap/
+
+[TensorFlow 游乐场]: /docs/orange3/deeplearning/tensorflowplayground/
+[天气播报]: /docs/orange3/deeplearning/weatherreport/
+[多标签识别]: /docs/orange3/deeplearning/multilabelrecognition/
+[卷积神经网络学习器]: /docs/orange3/deeplearning/cnnlearner/
+[卷积神经网络预测]: /docs/orange3/deeplearning/cnnpredict/
+[图片加载器]: /docs/orange3/deeplearning/imageloader/
+[模型训练与测试]: /docs/orange3/deeplearning//train&test/

@@ -224,6 +224,23 @@ orange3:
       - title: 格子世界(Grid World)
         url: /docs/orange3/reinforcement/gridworld/
 
+  - title: 深度学习
+    children:
+      - title: TensorFlow 游乐场(TensorFlow Playground)
+        url: /docs/orange3/deeplearning/tensorflowplayground/
+      - title: 天气播报(Weather Report)
+        url: /docs/orange3/deeplearning/weatherreport/
+      - title: 多标签识别 (Multi Label Recognition)
+        url: /docs/orange3/deeplearning/multilabelrecognition/
+      - title: 卷积神经网络学习器(CNN Learner)
+        url: /docs/orange3/deeplearning/cnnlearner/
+      - title: 卷积神经网络预测(CNN Predict)
+        url: /docs/orange3/deeplearning/cnnpredict/
+      - title: 图片加载器(Image Loader)
+        url: /docs/orange3/deeplearning/imageloader/
+      - title: 模型训练与测试(train & test)
+        url: /docs/orange3/deeplearning/train&test/
+
 tutorial:
   - title: 入门
     children:
