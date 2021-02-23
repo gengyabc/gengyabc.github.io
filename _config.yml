@@ -39,6 +39,7 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: "Asia/Shanghai"
 locale: "zh-CN" # Collections
+github: [metadata]
 
 
 collections:
@@ -141,6 +142,7 @@ defaults:
       comments: false
       toc: true
       toc_sticky: true
+      nested: true
       sidebar:
         nav: "orange3"  # 使用navigation.yml 哪个侧边栏
   # _Orange3-text
@@ -168,8 +170,25 @@ defaults:
       comments: false
       toc: true
       toc_sticky: true
+      nested: false
       sidebar:
         nav: "tutorial"  # 使用navigation.yml 哪个侧边栏
+
+  # AI 
+  - scope:
+      path: "_docs/ai"
+      type: docs  # 这个应该是那个_docs目录
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      toc: true
+      toc_sticky: true
+      nested: false
+      sidebar:
+        nav: "ai"  # 使用navigation.yml 哪个侧边栏
 
 category_archive:
   type: liquid

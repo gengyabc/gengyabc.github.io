@@ -10,6 +10,8 @@ main:
     url: /start/
   - title: 教程
     url: /docs/tutorial/01download_install/
+  - title: 人工智能
+    url: /docs/ai/01basic/01brief-hist/
   - title: "工作流"
     url: /workflows/
   - title: "关于"
@@ -257,4 +259,32 @@ tutorial:
       - title: 逻辑回归
         url: /docs/tutorial/06logreg/
 
+ai:
+  - title: 概述
+    children:
+      - title: 人工智能概述
+        url: /docs/ai/01basic/01brief-hist/
+      - title: 机器学习概述
+        url: /docs/ai/01basic/02ml-hist/
+      - title: 数据基础
+        url: /docs/ai/01basic/03data/
+      - title: 损失函数
+        url: /docs/ai/01basic/04loss/
+      - title: 训练与测试
+        url: /docs/ai/01basic/05train-and-test/
+      - title: 梯度与梯度下降
+        url: /docs/ai/01basic/06gradient/
+      - title: 超参数
+        url: /docs/ai/01basic/07hyper/
+      - title: 过拟合与欠拟合
+        url: /docs/ai/01basic/08overfit/
+      - title: 正则化
+        url: /docs/ai/01basic/09regulation/
+
+  - title: 模型
+    children:
+      - title: 线性回归
+        url: /docs/ai/02models/01linear-regression
+      - title: 逻辑回归
+        url: /docs/ai/02models/02logistic-regression
 
