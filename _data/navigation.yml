@@ -243,6 +243,38 @@ orange3:
       - title: 模型训练与测试(train & test)
         url: /docs/orange3/deeplearning/train&test/
 
+
+text:
+    - title: 基础
+      children:
+        - title: 语料库(Corpuls)
+          url: /docs/orange3/text/corpuls/
+        - title: 文件夹载入(Import Documents)
+          url: /docs/orange3/text/importdocuments/
+        - title: 文本预处理(Preprocess Text)
+          url: /docs/orange3/text/preprocesstext/
+        - title: 词袋(Bag of Words)
+          url: /docs/orange3/text/bagofwords/
+        - title: 相似哈希(Similarity Hashing)
+          url: /docs/orange3/text/similarityhashing/
+        - title: 主题模型(Topic Modelling)
+          url: /docs/orange3/text/topicmodelling/
+        - title: 语料查看器(Corpus Viewer)
+          url: /docs/orange3/text/corpusviewer/
+        - title: 词云(Word Cloud)
+          url: /docs/orange3/text/wordcloud/
+        - title: 词上下文(Concordance)
+          url: /docs/orange3/text/concordance/
+        - title: 文档地图(Document Map)
+          url: /docs/orange3/text/documentmap/
+        - title: 词充实(Word Enrichment)
+          url: /docs/orange3/text/wordenrichment/
+        - title: 查重(Duplicate Detection)
+          url: /docs/orange3/text/duplicatedetection/
+        - title: 文档统计(Statistics)
+          url: /docs/orange3/text/statistics/
+
+
 tutorial:
   - title: 入门
     children:
@@ -287,4 +319,6 @@ ai:
         url: /docs/ai/02models/01linear-regression
       - title: 逻辑回归
         url: /docs/ai/02models/02logistic-regression
+      - title: 支持向量机
+        url: /docs/ai/02models/03svm
 

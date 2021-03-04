@@ -147,7 +147,7 @@ defaults:
         nav: "orange3"  # 使用navigation.yml 哪个侧边栏
   # _Orange3-text
   - scope:
-      path: "_docs/orange3-text"
+      path: "_docs/orange3/text"
       type: docs
     values:
       layout: single
@@ -155,8 +155,9 @@ defaults:
       author_profile: false
       share: false
       comments: false
+      nested: false
       sidebar:
-        nav: "orange3-text"
+        nav: "text"
 
   # tutorial
   - scope:
