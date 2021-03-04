@@ -21,7 +21,7 @@ title: 语料查看器(Corpus Viewer)
 
 
 ## 界面
-![](/assets/images/text/Corpus-Viewer-stamped.png)
+![](/assets/images/text/Corpus-Viewer-stamped.png.webp)
 
 1. **信息**：
    - `文件`：输入的文件数量。
@@ -43,7 +43,7 @@ title: 语料查看器(Corpus Viewer)
 现在我们将只过滤掉谈论 Bill 这个字符的文档。我们使用正则表达式 `\bBill\b` 来查找只包含Bill这个词的文档。你可以输出匹配或不匹配的文档，在另一个**语料查看器(Corpus Viewer)**中查看它们或进一步分析它们。
 
 
-![](/assets/images/text/Corpus-Viewer-Example.png)
+![](/assets/images/text/Corpus-Viewer-Example.png.webp)
 
 
 {% include _links.md %}
