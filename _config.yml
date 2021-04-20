@@ -32,7 +32,7 @@ words_per_minute         : 200
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.22.0"
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
