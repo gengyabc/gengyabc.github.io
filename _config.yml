@@ -147,7 +147,7 @@ defaults:
         nav: "orange3"  # 使用navigation.yml 哪个侧边栏
   # _Orange3-text
   - scope:
-      path: "_docs/orange3/text"
+      path: "_docs/orange3/textmining"
       type: docs
     values:
       layout: single
