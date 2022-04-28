@@ -157,7 +157,7 @@ defaults:
       comments: false
       nested: false
       sidebar:
-        nav: "text"
+        nav: "textming"
 
   # tutorial
   - scope:
