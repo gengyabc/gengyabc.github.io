@@ -1,5 +1,7 @@
 ---
 title: 词充实(Word Enrichment)
+redirect_from:
+    - /docs/orange3/text/wordenrichment/
 ---
 
 对选定的文件进行词语丰富性分析。

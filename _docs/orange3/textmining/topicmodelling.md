@@ -1,5 +1,7 @@
 ---
 title: 主题模型(Topic Modelling)
+redirect_from:
+    - /docs/orange3/text/topicmodelling/
 ---
 
 使用 Latent Dirichlet Allocation、Latent Semantic Indexing或Hierarchical Dirichlet Process 进行主题建模。

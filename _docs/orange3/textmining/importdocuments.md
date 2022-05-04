@@ -1,5 +1,7 @@
 ---
 title: 文件夹载入(Import Documents)
+redirect_from:
+    - /docs/orange3/text/importdocuments/
 ---
 
 从文件夹中导入文本文档。

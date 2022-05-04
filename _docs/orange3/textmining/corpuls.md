@@ -1,5 +1,7 @@
 ---
 title: 语料库(Corpuls)
+redirect_from:
+    - /docs/orange3/text/corpuls/
 ---
 
 加载文本文档的语料库，（可选）用类别标记，或更改语料库的数据输入信号。

@@ -247,32 +247,45 @@ orange3:
   - title: 文本挖掘
     children:
       - title: 语料库(Corpuls)
-        url: /docs/orange3/textming/corpuls/
+        url: /docs/orange3/textmining/corpuls/
       - title: 文件夹载入(Import Documents)
-        url: /docs/orange3/textming/importdocuments/
+        url: /docs/orange3/textmining/importdocuments/
+      - title: Pubmed
+        url: /docs/orange3/textmining/pubmed/
       - title: 文本预处理(Preprocess Text)
-        url: /docs/orange3/textming/preprocesstext/
+        url: /docs/orange3/textmining/preprocesstext/
       - title: 词袋(Bag of Words)
-        url: /docs/orange3/textming/bagofwords/
+        url: /docs/orange3/textmining/bagofwords/
       - title: 相似哈希(Similarity Hashing)
-        url: /docs/orange3/textming/similarityhashing/
+        url: /docs/orange3/textmining/similarityhashing/
       - title: 主题模型(Topic Modelling)
-        url: /docs/orange3/textming/topicmodelling/
+        url: /docs/orange3/textmining/topicmodelling/
       - title: 语料查看器(Corpus Viewer)
-        url: /docs/orange3/textming/corpusviewer/
+        url: /docs/orange3/textmining/corpusviewer/
       - title: 词云(Word Cloud)
-        url: /docs/orange3/textming/wordcloud/
+        url: /docs/orange3/textmining/wordcloud/
       - title: 词上下文(Concordance)
-        url: /docs/orange3/textming/concordance/
+        url: /docs/orange3/textmining/concordance/
       - title: 文档地图(Document Map)
-        url: /docs/orange3/textming/documentmap/
+        url: /docs/orange3/textmining/documentmap/
       - title: 词充实(Word Enrichment)
-        url: /docs/orange3/textming/wordenrichment/
+        url: /docs/orange3/textmining/wordenrichment/
       - title: 查重(Duplicate Detection)
-        url: /docs/orange3/textming/duplicatedetection/
+        url: /docs/orange3/textmining/duplicatedetection/
       - title: 文档统计(Statistics)
-        url: /docs/orange3/textming/statistics/
-
+        url: /docs/orange3/textmining/statistics/
+      - title: Corpus to Network
+        url: /docs/orange3/textmining/corpustonetwork/
+      - title: 文档嵌入(Document Embedding)
+        url: /docs/orange3/textmining/documentembedding/
+      - title: 关键词提取(Extract Keywords)
+        url: /docs/orange3/textmining/extractkeywords/
+      - title: 交互式LDA(LDAvis)
+        url: /docs/orange3/textmining/ldavis/
+      - title: 文档评分(Score Documents)
+        url: /docs/orange3/textmining/scoredocuments/
+      - title: 语义查看器(Semantic Viewer)
+        url: /docs/orange3/textmining/semanticviewer/
 
 tutorial:
   - title: 入门

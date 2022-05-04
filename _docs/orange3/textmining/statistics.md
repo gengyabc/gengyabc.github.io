@@ -1,5 +1,7 @@
 ---
 title: 文档统计(Statistics)
+redirect_from:
+    - /docs/orange3/text/statistics/
 ---
 为文档创建新的统计变量。
 

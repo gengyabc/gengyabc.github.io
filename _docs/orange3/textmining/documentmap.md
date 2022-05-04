@@ -1,5 +1,7 @@
 ---
 title: 文档地图(Document Map)
+redirect_from:
+    - /docs/orange3/text/documentmap/
 ---
 
 显示文本中提到的地理位置。

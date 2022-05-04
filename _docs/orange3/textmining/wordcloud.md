@@ -1,5 +1,7 @@
 ---
 title: 词云(Word Cloud)
+redirect_from:
+    - /docs/orange3/text/wordcloud/
 ---
 
 从语料库生成词云。

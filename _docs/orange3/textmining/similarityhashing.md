@@ -1,5 +1,7 @@
 ---
 title: 相似哈希(Similarity Hashing)
+redirect_from:
+    - /docs/orange3/text/similarityhashing/
 ---
 
 计算文件的哈希值。

@@ -1,5 +1,7 @@
 ---
 title: 语料查看器(Corpus Viewer)
+redirect_from:
+    - /docs/orange3/text/corpusviewer/
 ---
 
 显示语料库内容。

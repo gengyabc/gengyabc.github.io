@@ -1,5 +1,7 @@
 ---
 title: 文本预处理(Preprocess Text)
+redirect_from:
+    - /docs/orange3/text/preprocesstext/
 ---
 
 用选定的方法对语料进行预处理。

@@ -1,5 +1,7 @@
 ---
 title: 词袋(Bag of Words)
+redirect_from:
+    - /docs/orange3/text/bagofwords/
 ---
 
 从输入的语料库中生成一个词袋。

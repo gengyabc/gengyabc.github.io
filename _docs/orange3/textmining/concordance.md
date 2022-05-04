@@ -1,5 +1,7 @@
 ---
 title: 词上下文(Concordance)
+redirect_from:
+    - /docs/orange3/text/concordance/
 ---
 显示该词的上下文。
 

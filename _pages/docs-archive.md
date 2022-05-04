@@ -15,7 +15,7 @@ feature_row:
     alt: "自然语言处理（Orange3-text）处理"
     title: "自然语言处理（Orange3-text）处理"
     excerpt: "自然语言处理（Orange3-text）处理"
-    url: "/docs/orange3/textming/corpuls/"
+    url: "/docs/orange3/textmining/corpuls/"
     btn_label: "查看文档"
 
 ---

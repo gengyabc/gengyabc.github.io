@@ -1,5 +1,7 @@
 ---
 title: 查重(Duplicate Detection)
+redirect_from:
+    - /docs/orange3/text/duplicatedetection/
 ---
 
 从语料库中检测和删除重复的内容。

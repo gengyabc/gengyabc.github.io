@@ -106,16 +106,16 @@
 [模型训练与测试]: /docs/orange3/deeplearning//train&test/
 
 
-[语料库]: /docs/orange3/text/corpuls/
-[文件夹载入]: /docs/orange3/text/importdocuments/
-[文本预处理]: /docs/orange3/text/preprocesstext/
-[词袋]: /docs/orange3/text/bagofwords/
-[相似哈希]: /docs/orange3/text/similarityhashing/
-[主题模型]: /docs/orange3/text/topicmodelling/
-[语料查看器]: /docs/orange3/text/corpusviewer/
-[词云]: /docs/orange3/text/wordcloud/
-[词上下文]: /docs/orange3/text/concordance/
-[文档地图]: /docs/orange3/text/documentmap/
-[词充实]: /docs/orange3/text/wordenrichment/
-[查重]: /docs/orange3/text/duplicatedetection/
-[文档统计]: /docs/orange3/text/statistics/
+[语料库]: /docs/orange3/textmining/corpuls/
+[文件夹载入]: /docs/orange3/textmining/importdocuments/
+[文本预处理]: /docs/orange3/textmining/preprocesstext/
+[词袋]: /docs/orange3/textmining/bagofwords/
+[相似哈希]: /docs/orange3/textmining/similarityhashing/
+[主题模型]: /docs/orange3/textmining/topicmodelling/
+[语料查看器]: /docs/orange3/textmining/corpusviewer/
+[词云]: /docs/orange3/textmining/wordcloud/
+[词上下文]: /docs/orange3/textmining/concordance/
+[文档地图]: /docs/orange3/textmining/documentmap/
+[词充实]: /docs/orange3/textmining/wordenrichment/
+[查重]: /docs/orange3/textmining/duplicatedetection/
+[文档统计]: /docs/orange3/textmining/statistics/
