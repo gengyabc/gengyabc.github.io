@@ -1,4 +1,4 @@
-[下载地址](https://pan.baidu.com/s/1IoMv7Ye2La2cOB_MSwgaHg)
+[下载地址](https://share.weiyun.com/lXwe2eJI)
 
 * windows: 进入 win 文件夹, 下载压缩包解压即可使用
 * max: 进入 mac 文件夹, 下载安装即可使用
